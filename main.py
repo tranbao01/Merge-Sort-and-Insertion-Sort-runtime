@@ -73,10 +73,10 @@ print("The start time is :", start)
 for i in range(1000):
     insertionSort(random.sample(range(0,1000), n))
 print("The difference of time is :",
-              timeit.default_timer() - start)
+              (timeit.default_timer() - start)*1000)
 start2 = timeit.default_timer()
 print("The start2 time is :", start2)
 for i in range(1000):
     mergeSort(random.sample(range(0,1000), n))
 print("The difference2 of time is :",
-              timeit.default_timer() - start2)
+              (timeit.default_timer() - start2)*1000)
