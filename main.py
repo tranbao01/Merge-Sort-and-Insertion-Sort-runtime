@@ -1,3 +1,5 @@
+# Merge Sort citation: https://www.programiz.com/dsa/merge-sort#google_vignette
+# Insertion Sort citation: https://www.programiz.com/dsa/insertion-sort
 import random
 import timeit
 def mergeSort(array):
